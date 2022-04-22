@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="CartContainer"><span class="close">×</span>
+        <img class="logo" src="cc.png" alt="logo">
+            <h6>Please Choose your desired execution date and time slot of service required before booking .</h6>
+            <img class="code-img" src="https://media.giphy.com/media/hsPP47prxlRzZx9g5r/giphy.gif" alt="code-img">            <hr>
+             <div class="select">
+            <select name="ddldt" id="ddldt">
+            <option selected="selected" value="0">Choose Date</option>
+            <option value="1">Sat Apr 23</option><option value="2">Sun Apr 24</option><option value="3">Mon Apr 25</option></select></div>
+              <div class="select">
+            <select name="ddlslot" id="ddlslot">
+           <option selected="selected" value="0">Choose Slot</option>
+       <option value="1">8:00AM to 10:00AM</option><option value="2">10:00AM to 12:00PM</option><option value="3">12:00PM to 2:00PM</option><option value="4">2:00PM to 4:00PM</option><option value="5">4:00PM to 6:00PM</option><option value="6">6:00PM to 8:00PM</option></select></div>
+           <button class="button" type="button" id="btngoto">Next</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
